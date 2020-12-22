@@ -1,0 +1,577 @@
+#header
+{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	margin: 0px;
+	padding-top: 10px;
+
+
+}
+#logo
+{
+	margin: 0px;
+	width: auto;
+	height: auto;
+	padding-left: 7px;
+	float: left;
+	
+}
+
+#connect{
+	margin:0px;
+	float: right;
+	color: white;
+	padding-right: 20px;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+#tripadvisor{
+	float: left;
+	padding-left: 175px;
+	color: green;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+#whatsapp{
+	float: left;
+	padding-left: 95px;
+	
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #3c84c1;
+}
+
+#navigate{
+	width: 100%;
+	float: left;
+	color: #fff;
+    background-color: #292929;
+	
+	font-family: "Roboto", sans-serif;
+    font-size: 16px;
+
+	
+	
+}
+.gap{
+	background-color: white;
+	color: white;
+}
+.gapp{
+	background-color: white;
+	color: white;
+	width: 100%;
+}
+#manageLeftImage{
+	width: 51%;
+	height:auto;
+	float: left;
+	background-image: url(pic.jpg);
+	border-radius: 20px;
+}
+#manageLeft{
+	width: 51%;
+	height:auto;
+	float: left;
+	
+}
+#manageRight{
+	width: 47%;
+	height: auto;
+	float: right;
+	/*border-style: ridge;*/
+	text-align: justify;
+}
+
+#compart{
+	height: auto;
+	width: 100%;
+	
+
+}
+
+#compartt1{
+	width: 52%;
+	float:left;
+	border-style: ridge;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 15px;
+	padding-top: 20px;
+	
+	font-size: 16px;
+    font-family: 'Monda', sans-serif;
+    color:white;
+    height: auto;
+
+	
+}
+#compartt2{
+	width: 40%;
+	float:right;
+	border-style: ridge;
+	padding: 15px;
+	border-radius: 10px;
+	    font-size: 13px;
+    font-family: 'Monda', sans-serif;
+    color: #000;
+    text-align: justify;
+	
+}
+#compartt2 h1{
+	color:red;
+	font-family: "Roboto", sans-serif;
+    font-size: 24px;
+
+}
+#formControl{
+
+    display: block;
+    width: 50%;
+    height: 23px;
+    padding: 6px 12px;
+    font-size: 14px;
+    
+    color: #555;
+    border-radius: 4px;
+}
+
+#compartt1 h1{
+	color:red;
+	font-family: "Roboto", sans-serif;
+    font-size: 24px; 
+}
+#compartt1 h2{
+	color: white;
+    margin: 0;
+    
+    font-family: 'Droid Sans', sans-serif
+    font-size:18px; 
+        
+    
+}
+
+
+#compart1{
+	width: 52%;
+	float:left;
+	border-style: ridge;
+	text-align: justify;
+	padding: 15px;
+	padding-top: 20px;
+	border-radius: 10px;
+	font-size: 15px;
+    font-family: 'Monda', sans-serif;
+    color: #000;
+	
+}
+#compart1 h1{
+	color: red;
+	}
+
+#compart2{
+	width: 40%;
+	float:right;
+	border-style: ridge;
+	padding: 15px;
+	border-radius: 10px;
+	    font-size: 15px;
+    font-family: 'Monda', sans-serif;
+    color: #000;
+    text-align: justify;
+	
+}
+#compart2 h1{
+	color: red;
+	}
+#enquire{
+	width: 40%;
+	float:right;
+	text-align:center;
+	background-color: blue;
+	color: white;
+	padding: 15px;
+	border-style: ridge;
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+}
+#button{
+	color:green;
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+	border-radius: 15px;
+	padding: 5px;
+
+
+}
+#form{
+	width: 40%;
+	float:right;
+	text-align:center;
+	border-style: ridge;
+	background-color: rgba(0,0,0,0.75);
+	padding: 15px;
+	background-image: url(back.jpeg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+	border-radius: 10px;
+
+}
+#form h2{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	color: red;
+	
+
+}
+#form1{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(pic.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+
+#contactForm{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(river1.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#contactForm h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 47px;
+	padding: 15px;
+
+}
+#adventure{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(adventure.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#adventure h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+
+}
+#pashupati{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(pashupati1.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#pashupati h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+
+}
+#p{
+	border-radius: 20px;
+}
+#elephantImage{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(elephant.jpeg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#mountainImage{
+		height:400px;
+	width:1143px;
+	float:right;
+	padding: 15px;
+	
+	background-image: url(mountain.jpg);
+	
+
+}
+#elephantImage h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+
+}
+#shantiStupa{
+		height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: black;
+	padding: 15px;
+	background-image: url(shantistupa.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#shantiStupa h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+}
+#Swoyambhunath{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: black;
+	padding: 15px;
+	background-image: url(swoyambhu1.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#Swoyambhunath h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+	
+}
+#lumbini{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: black;
+	padding: 15px;
+	background-image: url(lumbini2.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+#lumbini h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 40px;
+	padding: 20px;
+
+}
+
+#destinationImage{
+	height:400px;
+	width:1143px;
+	float:right;
+	text-align:center;
+	/*border-style: ridge;*/
+	color: white;
+	padding: 15px;
+	background-image: url(lake1.jpg);
+	font-family: "Roboto",sans-serif;
+	font-size: 17px;
+
+}
+
+#destinationImage h1{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	font-size: 47px;
+	padding: 15px;
+
+}
+.destinationDescription{
+	width: 100%;
+	height:200px;
+	background-color: blue;
+}
+#manager{
+	border-radius: 7%;
+	float: left;
+}
+
+#wholeplace{
+	width: 100%;
+	height: 200px;
+	background-color: white;
+
+}
+#photoD{
+	height auto;
+	width: 30%;
+	float: left;
+	
+	
+}
+#photoDR{
+	height auto;
+	width: 69%;
+	float: right;
+	border-style: ridge;
+	border-radius: 10px;
+	text-align: justify;
+	padding: 2px;
+	
+	
+}
+#photoDR h2{
+	font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+	
+	}
+#photoDR p{
+	font-size: 16px;
+    font-family: 'Monda', sans-serif;
+	
+	}
+
+
+
+
+#navigate ul{
+
+}
+#navigate li{
+	list-style-type: none;
+	display: inline;
+	
+}
+#navigate li a{
+	padding:10px 10px;
+	text-decoration: none;
+	color: #fff;
+	border-right: white 1px solid;
+
+
+}
+#navigate li a:hover{
+	background-color: #525252;
+	color: red;
+	
+	
+}
+.title{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: white;
+	
+}
+.footer{
+	width: 100%;
+	height:auto;
+	background-color: grey;
+	float:left;
+	padding-top: 10px;
+	
+}
+.footer1
+{
+	width: 22%;
+	float: left;
+}
+.footer1 li{
+	list-style-type: none;
+
+    line-height: 26px;
+    border-bottom: 1px dotted;
+    font-size: 13px;
+    font-family: 'Monda', sans-serif;
+    color: #000;
+
+}
+
+.footer li:hover{
+	
+	color: white;
+	
+	
+}
+.detail{
+	width: 22.5%;
+	float: left;
+	padding-left: 25px;
+	color: white;
+	font-size: 13px;
+    font-family: 'Monda', sans-serif;
+
+
+}
+.detail h1{
+	font-size: 17px;
+
+}
+
+
+.footer2
+{
+	width: 22.5%;
+	float: left;
+}
+.footer2 li{
+	list-style-type: none;
+	line-height: 26px;
+    border-bottom: 1px dotted;
+    font-size: 13px;
+    font-family: 'Monda', sans-serif;
+    color: #000;
+}
+#mainfooter{
+	width: 100%;
+	height: 50px;
+	background-color: black;
+	color: white;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	
+}
+#mainfooter1{
+	width: 35%;
+	float: left;
+	font-size: 15px;
+    font-family: Times new Roman;
+    padding-left: 25px;
+	
+}
+#mainfooter2{
+	width: 25%;
+	float: left; 
+	padding-left: 50px;
+	
+}
+#mainfooter3{
+	width: 30%;
+	float: left; 
+	padding-left: 25px;
+	
+}
+#container
+{
+	background-color: blue;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 60px;
+}
+
